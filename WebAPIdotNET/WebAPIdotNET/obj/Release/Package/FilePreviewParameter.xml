@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="demosanpham" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=demouit.database.windows.net;Initial Catalog=j2ee;Persist Security Info=True;User ID=trantu;Password=Chaien18041995" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="j2eeConnectionString-Web.config Connection String" description="" value="Data Source=demouit.database.windows.net;Initial Catalog=j2ee;Persist Security Info=True;User ID=trantu;Password=Chaien18041995" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='j2eeConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

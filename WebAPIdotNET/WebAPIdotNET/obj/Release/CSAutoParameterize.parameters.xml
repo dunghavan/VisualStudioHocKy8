@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-WebAPIdotNET-20170613090233.mdf;Initial Catalog=aspnet-WebAPIdotNET-20170613090233;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="j2eeConnectionString-Web.config Connection String" description="j2eeConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=demouit.database.windows.net;Initial Catalog=j2ee;Persist Security Info=True;User ID=trantu;Password=Chaien18041995" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dung\\Documents\\Visual\ Studio\ 2015\\Projects\\WebAPIdotNET\\WebAPIdotNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='j2eeConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

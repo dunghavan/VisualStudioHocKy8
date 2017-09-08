@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinQClass">
+  <DataContextMoniker Name="/LinQClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b42482b4-4aca-4f7c-b6e3-8739a10c6a58" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/LinQClassDataContext/tblCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7b06c04-9234-40ba-9561-7c3ada29b67c" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74c8290f-19b7-4492-8d42-8c50415b4268" absoluteBounds="3.5, 0.875, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/LinQClassDataContext/tblProduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d4d72ee5-f2ff-4a93-858f-88a7bd67d6c9" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinQClassDataContext/tblCategory/tblCategory_tblProduct" />
+      <nodes>
+        <classShapeMoniker Id="b42482b4-4aca-4f7c-b6e3-8739a10c6a58" />
+        <classShapeMoniker Id="74c8290f-19b7-4492-8d42-8c50415b4268" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
